@@ -58,8 +58,8 @@ body {
   .contexto{
     background-color: #333;
     padding: 100px;
-    margin: 50px 20px;
-    border-radius: 5px;
+    margin: 20px 10px;
+    border-radius: 15px;
     color: #fff;
   }
  .botaoproximo{
@@ -68,15 +68,21 @@ body {
   margin-top: 20px;
   display: flex;
   justify-content: center;
+  align-items:center ;
+  text-align: center;
  }
+.ai{
+  text-decoration: none;
+}
  .botaoproximo img{
   width: 30px;
   height: 30px;
+  margin: 5px;
   background-size: cover;
   background-position: center;
   display: flex;
   justify-content: center;
-
+  border-radius: 20px;
  }
  .botaoproximo:hover{
   background-color: #333;
@@ -84,3 +90,32 @@ body {
  .botaoproximo:active {
   background-color: #0fe02b;
 }
+.cardmaster{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 20px 20px 10px;
+}
+.card1{
+  margin: 20px; 
+  width: 300px; 
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.card2{
+  margin: 20px; 
+  width: 300px; 
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card3{
+  margin: 20px; 
+  width: 300px; 
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
